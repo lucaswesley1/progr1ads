@@ -1,0 +1,5 @@
+valor_original = float(input("digite o valor original: "))
+qtda_dias_atrasado = int(input("quantos dias de atraso? "))
+valor_multa = float(input("o valor da multa foi de? "))
+valor_atualizado = valor_original + (valor_multa * qtda_dias_atrasado)
+print("o valor atualizado da divida e de r$ %.2f" % valor_atualizado)
